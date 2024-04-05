@@ -157,7 +157,7 @@ realizaPedido.addEventListener("click", function(){
     }).join("")
 
 const mensagem = encodeURIComponent(itensCarrinho)
-const numeroTel = "43984815521"
+const numeroTel = "43999999999"
 
 window.open(`https://wa.me/${numeroTel}?text=${mensagem}%0AObservações: ${observacoesEntrada.value}%0AEntregar no Endereço: ${enderecoEntrada.value}`, "_blank")
 
